@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="text">
+      <h1 class="heading">Number Guessing Game...</h1>
+    </div>
+
+    <div class="button">
+      <button class="playGame">Play Game</button>
+    </div>
+
+    <div class="guessInputContainer">
+      <input
+        type="text"
+        class="guessInput"
+        placeholder="Enter Your Guess...( 1- 100 )"
+        hidden
+      />
+      <button type="submit" class="guessBtn" hidden>Check</button>
+
+      <button class="quitBtn" hidden>Quit Game</button>
+      <button class="restartBtn" hidden>Restart Game</button>
+    </div>
+
+    <div class="gameDets"></div>
+
+    <footer class="gameFooter">
+      Developed by <span class="name">Junaid Shakeel</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
