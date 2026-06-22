@@ -68,7 +68,6 @@ function processGuess() {
     if (count >= 7 && userGuess !== numberToGuess) {
         heading.textContent = `You Are Out Of Tries. The number was ${numberToGuess}.`;
         heading.style.color = "darkred";
-        detsDiv.innerHTML = "";
         endGame();
     }
 
